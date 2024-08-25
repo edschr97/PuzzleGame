@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
+
+html, body {
+  margin: 25px;
+  margin-top:25px;
+  background: #222222;
+  color: white;
+  align-content: center;
+  padding-left: 20px;
+}
+
+a {text-decoration: none;
+  color: white
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  display: flex;
+}
+
+#text {
+  width: 500px;
+  margin-right: 100px;
+  color:black;
+}
+
+
+#h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #FF2846;
+}
+
+#h1 p {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #FF2846;
+  margin-top: 30px;
+}
+
+.h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #FF2846;
+  margin-top: 30px;
+}
+
+.h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+.fett {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF2846;
+}
+
+.f1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+#warnung {
+  display: none;
+}
+
+.aktion {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #6671CB;
+}
+.tasten {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+#tasten {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-self: baseline;
+}
+
+.taste {
+  margin-left: 10px;
+  width: 30px;
+  fill: red;
+}
+
+#vorschau {
+  width: 200px;
+}
+
+#links {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 10px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+#links div {
+  margin-right: 20px;
+}
+
+#game {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  width: 640px;
+  height: 800px;
+  color: #FF2846;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#laden {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.button {
+  color: #FF2846;
+  background: #222222;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: fit-content;
+  height: fit-content;
+  border: solid 2px #FF2846;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background: #A5192D;
+}
+
+.button2 {
+  margin: 0px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  align-items: center;
+  border-bottom: solid 0px #FF2846;
+}
+
+.button2:hover {
+  border-bottom: solid 2px #FF2846;
+}
+
+
+
+.button2 img {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  width: 10px;
+  height: fit-content;
+}
+
+.button2 p {
+  margin: 0px;
+  padding: 0px;
+  height: fit-content;
+}
+
+.button2 p a {
+  margin: 0px;
+  padding: 0px;
+  color:  #FF2846;
+}
+
+.preload {
+  position: relative;
+  left: 50%;
+  transition: opacity .2s ease;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.preload-finish {
+  opacity: 0;
+  display: none;
+  pointer-events: none;
+}
+
+.loadText {
+  z-index: 0;
+  transition: opacity .2s ease;
+  transition-delay: .5s;
+  opacity: 0;
+  position: relative;
+}
+
+.loadText-finish {
+  display: block;
+  opacity: 1;
+}
+
+#li {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width:1000px)  {
+  html, body {
+    margin: 10px;
+    padding-left: 10px;
+  }
+  #game
+  {
+    display: none;
+  }
+
+  #warnung {
+    display: block;
+  }
+
+  .tasten {
+    display: none;
+  }
+
+  #wP {
+    display: none;
+  }
+}

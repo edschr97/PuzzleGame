@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="26px" viewBox="0 0 46 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon_Backspace_Blau</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-129.000000, -246.000000)">
+            <g id="Icon_Backspace_Blau" transform="translate(129.000000, 246.000000)">
+                <rect id="Rectangle" stroke="#6671CB" stroke-width="3" x="1.5" y="1.5" width="43" height="23" rx="6"></rect>
+                <path d="M25.8178251,10.3509435 C25.9363758,10.5194219 26,10.7204025 26,10.9264103 L25.9990325,11.9993266 L37,12 C37.5522847,12 38,12.4477153 38,13 C38,13.5522847 37.5522847,14 37,14 L25.9990325,13.9993266 L26,15.0735897 C26,15.6258744 25.5522847,16.0735897 25,16.0735897 C24.7939922,16.0735897 24.5930116,16.0099655 24.4245332,15.8914148 L21.4776494,13.8178251 C21.0259771,13.5000036 20.9174695,12.8762056 21.2352911,12.4245332 C21.3015274,12.3304014 21.3835176,12.2484112 21.4776494,12.1821749 L24.4245332,10.1085852 C24.8762056,9.79076364 25.5000036,9.89927117 25.8178251,10.3509435 Z" id="Combined-Shape-Copy" fill="#6671CB"></path>
+            </g>
+        </g>
+    </g>
+</svg>
